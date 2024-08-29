@@ -4,7 +4,7 @@ library(nnet)
 library(stargazer)
 library(foreign)
 
-ECMOSS<-read_dta("/Users/emmalebars/Desktop/Ecmoss_2006.dta")
+ECMOSS<-read_dta("/Users//Desktop/Ecmoss_2006.dta")
 
 ##########################################################################################
 # Importation et nettoyage base
@@ -38,7 +38,7 @@ base<-base[!is.na (base$pee) &
              !is.na(base$tefen) &
              !is.na(base$dept), ]
 
-# Proposition pour simpliifier le calcul plus tard : on remplace les NA par des 0
+# Proposition pour simplifier le calcul plus tard : on remplace les NA par des 0
 
 base[is.na(base)] <- 0
 
