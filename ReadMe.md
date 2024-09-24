@@ -9,6 +9,7 @@ This project investigates the causal relationship between profit-sharing and sav
 __Data:__
 
 Dataset: ECOMOSS 2006
+
 Source: Insee
 
 __Methodology:__
