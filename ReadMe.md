@@ -27,6 +27,9 @@ __Methodology:__
 __Code Structure:__
 
 data_cleaning.R: Functions for data cleaning and preparation.
+
 propensity_score_matching.R: Functions for propensity score estimation and matching.
+
 treatment_effect_analysis.R: Functions for estimating the treatment effect and conducting statistical tests.
+
 main.R: Main script that runs the analysis and generates output.
